@@ -5,7 +5,7 @@
   
   <body>  
 
-  <div id='product-component-1625002341221'></div>
+ <div id='product-component-1625002578360'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -34,7 +34,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '6809514770598',
-        node: document.getElementById('product-component-1625002341221'),
+        node: document.getElementById('product-component-1625002578360'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -50,6 +50,13 @@
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#4ea3a4"
+        },
+        "background-color": "#57b5b6",
+        ":focus": {
+          "background-color": "#4ea3a4"
+        },
         "border-radius": "40px",
         "padding-left": "100px",
         "padding-right": "100px"
@@ -63,13 +70,15 @@
         "font-size": "17px"
       }
     },
-    "buttonDestination": "checkout",
     "contents": {
+      "img": false,
       "button": false,
-      "buttonWithQuantity": true
+      "buttonWithQuantity": true,
+      "title": false,
+      "price": false
     },
     "text": {
-      "button": "Buy now"
+      "button": "Add to cart"
     }
   },
   "productSet": {
@@ -100,6 +109,13 @@
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#4ea3a4"
+        },
+        "background-color": "#57b5b6",
+        ":focus": {
+          "background-color": "#4ea3a4"
+        },
         "border-radius": "40px",
         "padding-left": "100px",
         "padding-right": "100px"
@@ -133,6 +149,13 @@
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#4ea3a4"
+        },
+        "background-color": "#57b5b6",
+        ":focus": {
+          "background-color": "#4ea3a4"
+        },
         "border-radius": "40px"
       }
     },
@@ -144,6 +167,15 @@
   },
   "toggle": {
     "styles": {
+      "toggle": {
+        "background-color": "#57b5b6",
+        ":hover": {
+          "background-color": "#4ea3a4"
+        },
+        ":focus": {
+          "background-color": "#4ea3a4"
+        }
+      },
       "count": {
         "font-size": "18px"
       }
@@ -155,9 +187,10 @@
   }
 })();
 /*]]>*/
-</script>
-  
-  
+</script>   
+    
+    
+    
   </body></html>
   
  
